@@ -1,0 +1,84 @@
+// ┌─────┐
+// │ 2 4 │   2 = Shift,  4 = AltGr + Shift
+// │ 1 3 │   1 = Normal, 3 = AltGr
+// └─────┘
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ ~ ~ │ ! ' │ @ " │ # ˝ │ $ ¸ │ % ˇ │ ^ ^ │ & ˘ │ * ̇  │ ( ̣  │ ) ° │ _ ¯ │ + ˛ ┃ ⌫ Back- ┃
+// │ ` ` │ 1 ¡ │ 2 © │ 3 • │ 4 § │ 5 € │ 6 ¢ │ 7 − │ 8 × │ 9 ÷ │ 0 ° │ - – │ = — ┃  space  ┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ Q   │ W   │ E   │ R   │ T   │ Y   │ U   │ I   │ O   │ P   │ { « │ } » ┃ Enter ┃
+// ┃Tab ↹  ┃ q   │ w   │ e   │ r   │ t   │ y   │ u   │ i   │ o   │ p   │ [ ‹ │ ] › ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃        ┃ A   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ : “ │ " ” │ | ¶ ┃      ┃
+// ┃Caps ⇬  ┃ a   │ s   │ d   │ f   │ g   │ h   │ j   │ k   │ l   │ ; ‘ │ ' ’ │ \   ┃      ┃
+// ┣━━━━━━━━┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
+// ┃             │ Z   │ X   │ C   │ V   │ B   │ N   │ M   │ < „ │ > · │ ? ¿ ┃             ┃
+// ┃Shift ⇧      │ z   │ x   │ c   │ v   │ b   │ n   │ m   │ , ‚ │ . … │ / ⁄ ┃Shift ⇧      ┃
+// ┣━━━━━━━┳━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃ ␣                               ⍽ ┃       ┃       ┃       ┃
+// ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣           Space               ⍽ ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+
+default alphanumeric_keys
+xkb_symbols "qnrd" {
+
+	name[Group1]="QNRD";
+
+    key <AE01>	{ [                    1,            exclam,              notsign,                U00B9 ] };
+    key <AE02>	{ [                    2,          quotedbl,                   at,                U00B2 ] };
+    key <AE03>	{ [                    3,        numbersign,             sterling,                U00B3 ] };
+    key <AE04>	{ [                    4,          currency,               dollar,                U2074 ] };
+    key <AE05>	{ [                    5,           percent,             EuroSign,                U2075 ] };
+    key <AE06>	{ [                    6,         ampersand,                U2227,                U2076 ] };
+    key <AE07>	{ [                    7,             slash,            braceleft,                U2077 ] };
+    key <AE08>	{ [                    8,         parenleft,          bracketleft,                U2078 ] };
+    key <AE09>	{ [                    9,        parenright,         bracketright,                U2079 ] };
+    key <AE10>	{ [                    0,             equal,           braceright,                U2070 ] };
+    key <AE11>	{ [                 plus,          question,            backslash,            plusminus ] };
+    key <AE12>	{ [           dead_acute,        dead_grave,                U2248,              notsign ] };
+
+    key <AD01>	{ [                    q,                 Q,                   at,          Greek_OMEGA ] };
+    key <AD02>	{ [                    w,                 W,              lstroke,              Lstroke ] };
+    key <AD03>	{ [                    e,                 E,                U03B7,                U2203 ] };
+    key <AD04>	{ [                    r,                 R,                U03C1,           registered ] };
+    key <AD05>	{ [                    t,                 T,                U03B8,                U03C4 ] };
+    key <AD06>	{ [                    y,                 Y,            leftarrow,                U2611 ] };
+    key <AD07>	{ [                    u,                 U,                union,         intersection ] };
+    key <AD08>	{ [                    i,                 I,             infinity,             integral ] };
+    key <AD09>	{ [                    o,                 O,                U2208,                U2209 ] };
+    key <AD10>	{ [                    p,                 P,                U03C0,                U03A0 ] };
+    key <AD11>	{ [                aring,             Aring,                U221D,               degree ] };
+    key <AD12>	{ [       dead_diaeresis,   dead_circumflex,           dead_tilde,           dead_caron ] };
+
+    key <AC01>	{ [                    a,                 A,                U03B1,                U2200 ] };
+    key <AC02>	{ [                    s,                 S,                U221A,                U2211 ] };
+    key <AC03>	{ [                    d,                 D,                U2202,                U0394 ] };
+    key <AC04>	{ [                    f,                 F,                U03C6,                U03C8 ] };
+    key <AC05>	{ [                    g,                 G,                U03B3,                U0393 ] };
+    key <AC06>	{ [                    h,                 H,              hstroke,                U2610 ] };
+    key <AC07>	{ [                    j,                 J,            leftarrow,            dead_horn ] };
+    key <AC08>	{ [                    k,                 K,            downarrow,            ampersand ] };
+    key <AC09>	{ [                    l,                 L,              uparrow,                U03BB ] };
+    key <AC10>	{ [           odiaeresis,        Odiaeresis,           rightarrow,             Ooblique ] };
+    key <AC11>	{ [           adiaeresis,        Adiaeresis,                   ae,                   AE ] };
+    key <TLDE>	{ [              section,           onehalf,            paragraph,        threequarters ] };
+
+    key <BKSL>	{ [           apostrophe,          asterisk,                acute,             multiply ] };
+    key <AB01>	{ [                    z,                 Z,                U03C3,                 less ] };
+    key <AB02>	{ [                    x,                 X,                U00D7,              greater ] };
+    key <AB03>	{ [                    c,                 C,                U2286,            copyright ] };
+    key <AB04>	{ [                    v,                 V,  leftdoublequotemark,  leftsinglequotemark ] };
+    key <AB05>	{ [                    b,                 B,                U03B2, rightsinglequotemark ] };
+    key <AB06>	{ [                    n,                 N,                nabla,                U2260 ] };
+    key <AB07>	{ [                    m,                 M,                   mu,            masculine ] };
+    key <AB08>	{ [                comma,         semicolon,         dead_cedilla,          dead_ogonek ] };
+    key <AB09>	{ [               period,             colon,       periodcentered,        dead_abovedot ] };
+    key <AB10>	{ [                minus,        underscore,        dead_belowdot,        dead_abovedot ] };
+
+    key <SPCE>	{ [                space,             space,                space,         nobreakspace ] };
+    key <LSGT>	{ [                 less,           greater,                  bar,                U2228 ] };
+
+    include "kpdl(comma)"
+    include "level3(ralt_switch)"
+};

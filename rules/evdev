@@ -1,0 +1,4 @@
+! option   = symbols
+  qnrd:qnrdse  = +qnrd(qnrdse)
+
+! include %S/evdev
