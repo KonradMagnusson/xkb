@@ -3,17 +3,17 @@
 // │ 1 3 │   1 = Normal, 3 = AltGr
 // └─────┘
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
-// │ ½ ¾ │ ! ¹ │ " ² │ # ³ │ ¤ ⁴ │ % ⁵ │ & ⁶ │ / ⁷ │ ( ̇⁸ │ ) ̣⁹ │ = ⁰ │ ? ± │ ` ¬ ┃  ⌫ Back- ┃
-// │ § ¶ │ 1 ¬ │ 2 @ │ 3 £ │ 4 ⁴ │ 5 € │ 6 ∧ │ 7 { │ 8 [ │ 9 ] │ 0 } │ + \ │ ´ ≈ ┃   space  ┃
+// │ ₁ ₃ │ ! ¹ │ " ² │ # ³ │ ¤ ⁴ │ % ⁵ │ & ⁶ │ / ⁷ │ ( ̇⁸ │ ) ̣⁹ │ = ⁰ │ ? ± │ ` ¬ ┃  ⌫ Back- ┃
+// │ § ₂ │ 1 ¬ │ 2 @ │ 3 £ │ 4 $ │ 5 € │ 6 ∧ │ 7 { │ 8 [ │ 9 ] │ 0 } │ + \ │ ´ ≈ ┃   space  ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━━┫
-// ┃       ┃ Q Ω │ W Ł │ E ∃ │ R ® │ T τ │ Y ☑ │ U ∩ │ I ∫ │ O ∉ │ P Π │ Å ° │ ^ ˇ ┃  Enter ┃
-// ┃ Tab ↹ ┃ q @ │ w ł │ e η │ r ρ │ t θ │ y ☐ │ u ∪ │ i ∞ │ o ∈ │ p π │ å ∝ │ ¨ ~ ┃    ⏎   ┃
+// ┃       ┃ Q ⊻ │ W † │ E ∄ │ R ® │ T ᵀ │ Y ☑ │ U ∩ │ I ∫ │ O ∉ │ P Π │ Å ° │ ^ ˇ ┃  Enter ┃
+// ┃ Tab ↹ ┃ q √ │ w ł │ e ∃ │ r ⱼ │ t ™ │ y ☐ │ u ∪ │ i ∞ │ o ∈ │ p π │ å ∝ │ ¨ ~ ┃    ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓       ┃
-// ┃        ┃ A ∀ │ S ∑ │ D Δ │ F ψ │ G Γ │ H ⊢ │ J ̛̛̛̛̛  │ K & │ L λ │ Ö Ø │ Ä Æ │ * × ┃       ┃
-// ┃ Meta   ┃ a α │ s √ │ d ∂ │ f φ │ g γ │ h ħ │ j ← │ k ↓ │ l ↑ │ ö → │ ä æ │ ' ´ ┃       ┃
+// ┃        ┃ A ∀ │ S ∑ │ D ≝ │ F ∴ │ G ⊼ │ H ⋆ │ J ̛̛̛̛̛̛̛◌̛ │ K 󰻀 │ L λ │ Ö Ø │ Ä Æ │ * × ┃       ┃
+// ┃ Meta   ┃ a ᵢ │ s √ │ d Δ │ f ∵ │ g ⊽ │ h ⊙ │ j ← │ k ↓ │ l ↑ │ ö → │ ä æ │ ' ◌ ┃       ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━━┫
-// ┃       ┃ > ∨ │ Z < │ X > │ C © │ V ‘ │ B ’ │ N ≠ │ M º │ ; ˛ │ : ˙ │ _ ˙ ┃              ┃
-// ┃Shift ⇧┃ < | │ z σ │ x × │ c ⊆ │ v “ │ b β │ n ∇ │ m µ │ , ¸ │ . · │ - ̣  ┃ Shift ⇧      ┃
+// ┃       ┃ > ∨ │ Z ⊬ │ X ⊭ │ C © │ V ₙ │ B □ │ N ≡ │ M ⁻ │ ; ˛ │ : ˙ │ _ ˙ ┃              ┃
+// ┃Shift ⇧┃ < | │ z σ │ x × │ c ⊆ │ v ̅̅v̅ │ b ∎ │ n ≠ │ m µ │ , ¸ │ . · │ - ◌̣ ┃ Shift ⇧      ┃
 // ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━┫
 // ┃       ┃       ┃       ┃ ␣                        (NBSP) ⍽ ┃       ┃      ┃      ┃      ┃
 // ┃ Ctrl  ┃ (QMK) ┃ Alt   ┃ ␣           Space        (ZWSP) ⍽ ┃ AltGr ┃(QMK) ┃(QMK) ┃ Ctrl ┃
@@ -25,7 +25,7 @@ xkb_symbols "qnrd" {
 
 	name[Group1]="QNRD";
 
-    key <TLDE>	{ [              section,           onehalf,            paragraph,        threequarters ] };
+    key <TLDE>	{ [              section,             U2081,                U2082,                U2083 ] };
     key <AE01>	{ [                    1,            exclam,              notsign,                U00B9 ] };
     key <AE02>	{ [                    2,          quotedbl,                   at,                U00B2 ] };
     key <AE03>	{ [                    3,        numbersign,             sterling,                U00B3 ] };
@@ -39,40 +39,40 @@ xkb_symbols "qnrd" {
     key <AE11>	{ [                 plus,          question,            backslash,            plusminus ] };
     key <AE12>	{ [           dead_acute,        dead_grave,                U2248,              notsign ] };
 
-    key <AD01>	{ [                    q,                 Q,                   at,          Greek_OMEGA ] };
-    key <AD02>	{ [                    w,                 W,              lstroke,              Lstroke ] };
-    key <AD03>	{ [                    e,                 E,                U03B7,                U2203 ] };
-    key <AD04>	{ [                    r,                 R,                U03C1,           registered ] };
-    key <AD05>	{ [                    t,                 T,                U03B8,                U03C4 ] };
+    key <AD01>	{ [                    q,                 Q,                U221A,                U22BB ] };
+    key <AD02>	{ [                    w,                 W,              lstroke,                U2020 ] };
+    key <AD03>	{ [                    e,                 E,                U2203,                U2204 ] };
+    key <AD04>	{ [                    r,                 R,                U2C7C,           registered ] };
+    key <AD05>	{ [                    t,                 T,                U2122,                U1D40 ] };
     key <AD06>	{ [                    y,                 Y,                U2610,                U2611 ] };
     key <AD07>	{ [                    u,                 U,                union,         intersection ] };
-    key <AD08>	{ [                    i,                 I,             infinity,             integral ] };
+    key <AD08>	{ [                    i,                 I,                U1D62,             infinity ] };
     key <AD09>	{ [                    o,                 O,                U2208,                U2209 ] };
     key <AD10>	{ [                    p,                 P,                U03C0,                U03A0 ] };
     key <AD11>	{ [                aring,             Aring,                U221D,               degree ] };
     key <AD12>	{ [       dead_diaeresis,   dead_circumflex,           dead_tilde,           dead_caron ] };
 
-    key <AC01>	{ [                    a,                 A,                U03B1,                U2200 ] };
-    key <AC02>	{ [                    s,                 S,                U221A,                U2211 ] };
-    key <AC03>	{ [                    d,                 D,                U2202,                U0394 ] };
-    key <AC04>	{ [                    f,                 F,                U03C6,                U03C8 ] };
-    key <AC05>	{ [                    g,                 G,                U03B3,                U0393 ] };
-    key <AC06>	{ [                    h,                 H,              hstroke,                U22A2 ] };
+    key <AC01>	{ [                    a,                 A,                U2200,             integral ] };
+    key <AC02>	{ [                    s,                 S,                U03C3,                U2211 ] };
+    key <AC03>	{ [                    d,                 D,                U0394,                U225D ] };
+    key <AC04>	{ [                    f,                 F,                U2235,                U2234 ] };
+    key <AC05>	{ [                    g,                 G,                U22BD,                U22BC ] };
+    key <AC06>	{ [                    h,                 H,                U2299,                U22C6 ] };
     key <AC07>	{ [                    j,                 J,            leftarrow,            dead_horn ] };
-    key <AC08>	{ [                    k,                 K,            downarrow,            ampersand ] };
+    key <AC08>	{ [                    k,                 K,            downarrow,               Uf0EC0 ] };
     key <AC09>	{ [                    l,                 L,              uparrow,                U03BB ] };
     key <AC10>	{ [           odiaeresis,        Odiaeresis,           rightarrow,             Ooblique ] };
     key <AC11>	{ [           adiaeresis,        Adiaeresis,                   ae,                   AE ] };
-    key <BKSL>	{ [           apostrophe,          asterisk,                acute,             multiply ] };
+    key <BKSL>	{ [           apostrophe,          asterisk,                U25CC,             multiply ] };
 
     key <LSGT>	{ [                 less,           greater,                  bar,                U2228 ] };
-    key <AB01>	{ [                    z,                 Z,                U03C3,                 less ] };
-    key <AB02>	{ [                    x,                 X,                U00D7,              greater ] };
+    key <AB01>	{ [                    z,                 Z,                U22A2,                U22AC ] };
+    key <AB02>	{ [                    x,                 X,                U22A8,                U22AD ] };
     key <AB03>	{ [                    c,                 C,                U2286,            copyright ] };
-    key <AB04>	{ [                    v,                 V,  leftdoublequotemark,  leftsinglequotemark ] };
-    key <AB05>	{ [                    b,                 B,                U03B2, rightsinglequotemark ] };
-    key <AB06>	{ [                    n,                 N,                nabla,                U2260 ] };
-    key <AB07>	{ [                    m,                 M,                   mu,            masculine ] };
+    key <AB04>	{ [                    v,                 V,                U0305,                U2099 ] };
+    key <AB05>	{ [                    b,                 B,                U220E,                U25A1 ] };
+    key <AB06>	{ [                    n,                 N,                U2260,                U2261 ] };
+    key <AB07>	{ [                    m,                 M,                   mu,                U207B ] };
     key <AB08>	{ [                comma,         semicolon,         dead_cedilla,          dead_ogonek ] };
     key <AB09>	{ [               period,             colon,       periodcentered,        dead_abovedot ] };
     key <AB10>	{ [                minus,        underscore,        dead_belowdot,        dead_abovedot ] };
