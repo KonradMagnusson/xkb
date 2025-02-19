@@ -9,11 +9,11 @@
 // ┃       ┃ Q ⊻ │ W † │ E ∄ │ R ® │ T ᵀ │ Y ☑ │ U ∩ │ I ∫ │ O ∉ │ P Π │ Å ° │ ^ ˇ ┃  Enter ┃
 // ┃ Tab ↹ ┃ q √ │ w ł │ e ∃ │ r ⱼ │ t ™ │ y ☐ │ u ∪ │ i ∞ │ o ∈ │ p π │ å ∝ │ ¨ ~ ┃    ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓       ┃
-// ┃        ┃ A ∀ │ S ∑ │ D ≝ │ F ∴ │ G ⊼ │ H ⋆ │ J ̛̛̛̛̛̛̛◌̛ │ K 󰻀 │ L λ │ Ö Ø │ Ä Æ │ * × ┃       ┃
-// ┃ Meta   ┃ a ᵢ │ s √ │ d Δ │ f ∵ │ g ⊽ │ h ⊙ │ j ← │ k ↓ │ l ↑ │ ö → │ ä æ │ ' ◌ ┃       ┃
+// ┃        ┃ A ∀ │ S ∑ │ D ≝ │ F ⊤ │ G ⊼ │ H ⋆ │ J ̛̛̛̛̛̛̛◌̛ │ K 󰻀 │ L λ │ Ö Ø │ Ä ∴ │ * × ┃       ┃
+// ┃ Meta   ┃ a ᵢ │ s √ │ d Δ │ f ⊥ │ g ⊽ │ h ⊙ │ j ← │ k ↓ │ l ↑ │ ö → │ ä ∵ │ ' ◌ ┃       ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━━┫
 // ┃       ┃ > ∨ │ Z ⊬ │ X ⊭ │ C © │ V ₙ │ B □ │ N ≡ │ M ⁻ │ ; ˛ │ : ˙ │ _ ˙ ┃              ┃
-// ┃Shift ⇧┃ < | │ z σ │ x × │ c ⊆ │ v ̅̅v̅ │ b ∎ │ n ≠ │ m µ │ , ¸ │ . · │ - ◌̣ ┃ Shift ⇧      ┃
+// ┃Shift ⇧┃ < | │ z ⊢ │ x ⊨ │ c ⊆ │ v ̅̅v̅ │ b ∎ │ n ≠ │ m µ │ , ¸ │ . · │ - ◌̣ ┃ Shift ⇧      ┃
 // ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━┫
 // ┃       ┃       ┃       ┃ ␣ (NBSP)                 (ZWSP) ⍽ ┃       ┃      ┃      ┃      ┃
 // ┃ Ctrl  ┃ (QMK) ┃ Alt   ┃ ␣           Space               ⍽ ┃ AltGr ┃(QMK) ┃(QMK) ┃ Ctrl ┃
@@ -55,14 +55,14 @@ xkb_symbols "qnrd" {
     key <AC01>	{ [                    a,                 A,                U2200,             integral ] };
     key <AC02>	{ [                    s,                 S,                U03C3,                U2211 ] };
     key <AC03>	{ [                    d,                 D,                U0394,                U225D ] };
-    key <AC04>	{ [                    f,                 F,                U2235,                U2234 ] };
+    key <AC04>	{ [                    f,                 F,                U22A5,                U22A4 ] };
     key <AC05>	{ [                    g,                 G,                U22BD,                U22BC ] };
     key <AC06>	{ [                    h,                 H,                U2299,                U22C6 ] };
     key <AC07>	{ [                    j,                 J,            leftarrow,            dead_horn ] };
     key <AC08>	{ [                    k,                 K,            downarrow,               Uf0EC0 ] };
     key <AC09>	{ [                    l,                 L,              uparrow,                U03BB ] };
     key <AC10>	{ [           odiaeresis,        Odiaeresis,           rightarrow,             Ooblique ] };
-    key <AC11>	{ [           adiaeresis,        Adiaeresis,                   ae,                   AE ] };
+    key <AC11>	{ [           adiaeresis,        Adiaeresis,                U2235,                U2234 ] };
     key <BKSL>	{ [           apostrophe,          asterisk,                U25CC,             multiply ] };
 
     key <LSGT>	{ [                 less,           greater,                  bar,                U2228 ] };
