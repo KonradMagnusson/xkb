@@ -6,10 +6,10 @@
 // │ ₁ ₃ │ ! ¹ │ " ² │ # ³ │ ¤ ⁴ │ % ⁵ │ & ⁶ │ / ⁷ │ ( ̇⁸ │ ) ̣⁹ │ = ⁰ │ ? ± │ ` ¬ ┃  ⌫ Back- ┃
 // │ § ₂ │ 1 ¬ │ 2 @ │ 3 £ │ 4 $ │ 5 € │ 6 ∧ │ 7 { │ 8 [ │ 9 ] │ 0 } │ + \ │ ´ ≈ ┃   space  ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━━┫
-// ┃       ┃ Q ⊻ │ W † │ E ∄ │ R ® │ T ᵀ │ Y ☑ │ U ∩ │ I ∫ │ O ∉ │ P Π │ Å ° │ ^ ˇ ┃  Enter ┃
-// ┃ Tab ↹ ┃ q √ │ w ł │ e ∃ │ r ⱼ │ t ™ │ y ☐ │ u ∪ │ i ∞ │ o ∈ │ p π │ å ∝ │ ¨ ~ ┃    ⏎   ┃
+// ┃       ┃ Q ⊻ │ W † │ E ∄ │ R ◌̛ │ T ᵀ │ Y ☑ │ U ∩ │ I ∞ │ O ∉ │ P Π │ Å ° │ ^ ˇ ┃  Enter ┃
+// ┃ Tab ↹ ┃ q √ │ w ł │ e ∃ │ r ® │ t ™ │ y ☐ │ u ∪ │ i ᵢ │ o ∈ │ p π │ å ∝ │ ¨ ~ ┃    ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓       ┃
-// ┃        ┃ A ∀ │ S ∑ │ D ≝ │ F ⊤ │ G ⊼ │ H ⋆ │ J ̛̛̛̛̛̛̛◌̛ │ K 󰻀 │ L λ │ Ö Ø │ Ä ∴ │ * × ┃       ┃
+// ┃        ┃ A ∀ │ S ∑ │ D ≝ │ F ⊤ │ G ⊼ │ H ⋆ │ J ̛̛̛̛̛̛̛ⱼ │ K 󰻀 │ L λ │ Ö Ø │ Ä ∴ │ * × ┃       ┃
 // ┃ Meta   ┃ a ᵢ │ s √ │ d Δ │ f ⊥ │ g ⊽ │ h ⊙ │ j ← │ k ↓ │ l ↑ │ ö → │ ä ∵ │ ' ◌ ┃       ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━━┫
 // ┃       ┃ > ∨ │ Z ⊬ │ X ⊭ │ C © │ V ₙ │ B □ │ N ≡ │ M ⁻ │ ; ˛ │ : ˙ │ _ ˙ ┃              ┃
@@ -42,7 +42,7 @@ xkb_symbols "qnrd" {
     key <AD01>	{ [                    q,                 Q,                U221A,                U22BB ] };
     key <AD02>	{ [                    w,                 W,              lstroke,                U2020 ] };
     key <AD03>	{ [                    e,                 E,                U2203,                U2204 ] };
-    key <AD04>	{ [                    r,                 R,                U2C7C,           registered ] };
+    key <AD04>	{ [                    r,                 R,           registered,            dead_horn ] };
     key <AD05>	{ [                    t,                 T,                U2122,                U1D40 ] };
     key <AD06>	{ [                    y,                 Y,                U2610,                U2611 ] };
     key <AD07>	{ [                    u,                 U,                union,         intersection ] };
@@ -58,7 +58,7 @@ xkb_symbols "qnrd" {
     key <AC04>	{ [                    f,                 F,                U22A5,                U22A4 ] };
     key <AC05>	{ [                    g,                 G,                U22BD,                U22BC ] };
     key <AC06>	{ [                    h,                 H,                U2299,                U22C6 ] };
-    key <AC07>	{ [                    j,                 J,            leftarrow,            dead_horn ] };
+    key <AC07>	{ [                    j,                 J,            leftarrow,                U2C7C ] };
     key <AC08>	{ [                    k,                 K,            downarrow,               Uf0EC0 ] };
     key <AC09>	{ [                    l,                 L,              uparrow,                U03BB ] };
     key <AC10>	{ [           odiaeresis,        Odiaeresis,           rightarrow,             Ooblique ] };
